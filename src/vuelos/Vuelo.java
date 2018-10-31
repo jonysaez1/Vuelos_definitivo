@@ -10,25 +10,15 @@ public class Vuelo {
     private LocalDate fecha_llegada;
     private LocalDate fecha_partida;
     private Ciudad id_ciudad;
-    private Ciudad id_ciudad_origen;
+    private Ciudad id_ciudad_destino;
 
-    public Vuelo(int id, String aerolinea, String aeronave, LocalDate fecha_llegada, LocalDate fecha_partida, Ciudad id_ciudad, Ciudad id_ciudad_origen) {
-        this.id = id;
+    public Vuelo(String aerolinea, String aeronave, LocalDate fecha_llegada, LocalDate fecha_partida, Ciudad id_ciudad, Ciudad id_ciudad_destino) {
         this.aerolinea = aerolinea;
         this.aeronave = aeronave;
         this.fecha_llegada = fecha_llegada;
         this.fecha_partida = fecha_partida;
         this.id_ciudad = id_ciudad;
-        this.id_ciudad_origen = id_ciudad_origen;
-    }
-
-    public Vuelo(String aerolinea, String aeronave, LocalDate fecha_llegada, LocalDate fecha_partida, Ciudad id_ciudad, Ciudad id_ciudad_origen) {
-        this.aerolinea = aerolinea;
-        this.aeronave = aeronave;
-        this.fecha_llegada = fecha_llegada;
-        this.fecha_partida = fecha_partida;
-        this.id_ciudad = id_ciudad;
-        this.id_ciudad_origen = id_ciudad_origen;
+        this.id_ciudad_destino = id_ciudad_destino;
     }
 
     public Vuelo() {
@@ -82,13 +72,15 @@ public class Vuelo {
         this.id_ciudad = id_ciudad;
     }
 
-    public Ciudad getId_ciudad_origen() {
-        return id_ciudad_origen;
+    public Ciudad getId_ciudad_destino() {
+        return id_ciudad_destino;
     }
 
-    public void setId_ciudad_origen(Ciudad id_ciudad_origen) {
-        this.id_ciudad_origen = id_ciudad_origen;
+    public void setId_ciudad_destino(Ciudad id_ciudad_destino) {
+        this.id_ciudad_destino = id_ciudad_destino;
     }
+
+
     
     
     

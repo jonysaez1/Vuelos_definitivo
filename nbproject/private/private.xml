@@ -4,11 +4,9 @@
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
             <file>file:/C:/Users/Jonathan%20Saez/Documents/NetBeansProjects/Vuelos_Definitivo/src/vistas/VistaCliente.java</file>
-            <file>file:/C:/Users/Jonathan%20Saez/Documents/NetBeansProjects/Vuelos_Definitivo/src/vistas/VistaAsiento.java</file>
-            <file>file:/C:/Users/Jonathan%20Saez/Documents/NetBeansProjects/Vuelos_Definitivo/src/vuelos/Vuelos.java</file>
+            <file>file:/C:/Users/Jonathan%20Saez/Documents/NetBeansProjects/Vuelos_Definitivo/src/vuelos/Compra.java</file>
+            <file>file:/C:/Users/Jonathan%20Saez/Documents/NetBeansProjects/Vuelos_Definitivo/src/vuelos/CompraData.java</file>
             <file>file:/C:/Users/Jonathan%20Saez/Documents/NetBeansProjects/Vuelos_Definitivo/src/vistas/VistaCompra.java</file>
-            <file>file:/C:/Users/Jonathan%20Saez/Documents/NetBeansProjects/Vuelos_Definitivo/src/vistas/VistaPrincipal.java</file>
-            <file>file:/C:/Users/Jonathan%20Saez/Documents/NetBeansProjects/Vuelos_Definitivo/src/vistas/VistaVuelo.java</file>
         </group>
     </open-files>
 </project-private>
